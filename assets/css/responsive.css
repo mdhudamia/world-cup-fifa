@@ -1,0 +1,160 @@
+@media only screen and (max-width:650px) {
+    .header_section {
+        height: 100%;
+    }
+
+    .header_container {
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    .palyer img {
+        width: 70%;
+        height: 34%;
+    }
+
+    .header_text {
+        width: 60%;
+        padding: 0 40px;
+        margin: 0 auto;
+        top: -45px;
+        position: relative;
+    }
+
+    .header_text {
+        padding: 0;
+    }
+
+    .header_text h2 {
+        font-size: 20px;
+    }
+
+    .header_text h1 {
+        font-size: 30px;
+    }
+
+    /* =================== */
+    div#world_menu {
+        width: 80%;
+    }
+
+    .sport_container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 40px;
+    }
+
+    .Blog_menu.blog_content {
+        margin: 0 auto;
+        width: 80%;
+    }
+
+    .blog_container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    /* ----------- */
+    .team_container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    /* footer */
+    .footer_menu ul li a {
+        margin-bottom: 15px;
+    }
+
+}
+
+
+
+/* =================
+====== Tablet size==
+=================== */
+@media only screen and (min-width:651px) and (max-width:980px) {
+
+    .header_container {
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    .palyer img {
+        width: 45%;
+        height: 34%;
+    }
+
+    .header_text h2 {
+        font-size: 1.6em;
+        margin-bottom: 20px;
+    }
+
+    .header_text h1 {
+        font-size: 2.5em;
+        margin: 0;
+    }
+
+    .header_text p {
+        font-size: 20px;
+        margin: 0;
+    }
+
+    .header_text {
+        width: 60%;
+        padding: 0 40px;
+        margin: 0 auto;
+        top: -45px;
+        position: relative;
+    }
+
+    /* ===================== */
+    div#world_menu {
+        width: 100%;
+    }
+
+    .Blog_menu.blog_content {
+        margin: 0 auto;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+
+    .sport_container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 40px;
+    }
+
+    .Blog_menu ul {
+        background: transparent;
+        align-items: center;
+    }
+
+    .Blog_menu ul li {
+        display: inline-block;
+    }
+
+    .Blog_menu ul li a {
+        color: #000;
+    }
+
+    .Blog_menu ul li a:hover,
+    .Blog_menu ul li a.active {
+        color: #fff;
+    }
+
+    .blog_container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* ----------- */
+    .team_container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* footer */
+    .footer_menu ul li a {
+        margin-bottom: 15px;
+    }
+}
